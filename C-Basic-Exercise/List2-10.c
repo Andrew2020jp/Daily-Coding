@@ -4,7 +4,7 @@ int main(void){
     puts("二つ整数を入力してください。");
     printf("整数a:"); scanf("%d",&a);
     printf("整数b:"); scanf("%d",&b);
-    printf("それらの平均は%fです。\n",(a+b)/2.0);
+    printf("それらの平均は%fです。\n",(double)(a+b)/2);//キャスト
 
     return 0;
 }
