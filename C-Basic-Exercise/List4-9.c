@@ -12,6 +12,5 @@ int main(void){
         sum+=tmp;
     }
     printf("合計は%d\n",sum);
-    pr
     return 0;
 } 
